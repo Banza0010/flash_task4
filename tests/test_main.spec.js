@@ -4,7 +4,7 @@ const { Login } = require('../pages/Login');
 const { Cart } = require('../pages/Cart');
 const { Products } = require('../pages/Products');
 
-test('Register and login', async () => {
+test('user journey test', async () => {
 
   ///---trying to resolve for the cloudflare block issues using chromium
   const userDataDir = './user_data';
